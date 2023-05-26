@@ -131,7 +131,8 @@ img {
 .menu-item-nav {}
 
 .menu-link {
-    display: flex;
+    /* display: block; */
+    position: relative;
     align-items: center;
     font-family: var(--primary-font);
     font-weight: 500;
@@ -154,16 +155,18 @@ img {
 }
 
 .menu-link::after {
-    display: block;
+    display: inline-block;
+    justify-content: center;
+    position: absolute;
     height: 4px;
     width: 48px;
-    left: nullpx;
-    top: nullpx;
+    left: 0px;
+    top: 65px;
     border-radius: 2px;
-    background-color: ;
-    content: '          ';
+    background-color:var(--accent-color);
     margin-bottom: 20px;
-    color: var(--accent-color)
+    content: '';
+    /* color: var(--accent-color); */
 }
 
 .address-item {
