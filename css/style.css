@@ -142,6 +142,7 @@ img {
     color:#404bbf;
     padding-top: 24px;
     padding-bottom: 24px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* «C4» Інтерактивні елементи (кнопки і посилання),при наведенні мишкою або фокусі з клавіатури, мають активний стан, 
